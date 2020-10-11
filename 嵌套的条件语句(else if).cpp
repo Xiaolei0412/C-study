@@ -1,4 +1,4 @@
-//ÒÑÖªÒ»¸öº¯Êı£¬ÈÎÒâ¸ø¶¨×Ô±äÁ¿XµÄÖµ£¬Çóº¯ÊıYµÄÖµ¡£
+//å·²çŸ¥ä¸€ä¸ªå‡½æ•°ï¼Œä»»æ„ç»™å®šè‡ªå˜é‡Xçš„å€¼ï¼Œæ±‚å‡½æ•°Yçš„å€¼ã€‚
 #include<iostream>
 using namespace std;
 int main()
@@ -7,9 +7,15 @@ int main()
 	cout << "input x==";
 	cin >> x;
 	if (x > 0)  y = 1;
-	else if (x == 0)  y = 0;  // elseÓëÇ°±ß×î½üµÄÎ´Æ¥ÅäµÄifÅä¶Ô¡£
+	else if (x == 0)  y = 0;  // elseä¸å‰è¾¹æœ€è¿‘çš„æœªåŒ¹é…çš„ifé…å¯¹ã€‚
 	else y = -1;
 	cout << "x=" << x << "y=" << y << endl;
 	system("pause");
 	return 0;
 }
+
+/*
+input x==1
+x=1y=1
+è¯·æŒ‰ä»»æ„é”®ç»§ç»­. . .
+*/
