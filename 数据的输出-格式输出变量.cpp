@@ -1,3 +1,5 @@
+//杈撳嚭鍙橀噺 amount鐨勫�硷紝鎺у埗灏忔暟鐐瑰悗闈㈡湁鏁堟暟瀛楃殑涓暟
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -6,9 +8,9 @@ int main()
 	double amount = 22.0 / 7; 
 	cout << amount << endl;
 	cout << setprecision(2) << amount << endl;
-        //设置浮点数的有效数位为n
+             //銆恠etprecision(2)銆戣缃诞鐐规暟鐨勬湁鏁堟暟浣嶄负n 
 	cout <<setiosflags(ios::fixed) << setprecision(2) << amount << endl;
-	    //固定的浮点表示
+	     //銆恠etiosflags(ios::fixed)銆戝浐瀹氱殑娴偣琛ㄧず
 	system("pause");
 	return 0;
 }
