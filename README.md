@@ -1,2 +1,0 @@
-# begin-C-
-styudy c++
